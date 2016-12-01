@@ -5,12 +5,12 @@
     "name": "cakephp-mysql-example",
     "annotations": {
       "openshift.io/display-name": "CakePHP + MySQL (Ephemeral)",
-      "description": "An example CakePHP application with a MySQL database. For more information about using this template, including OpenShift considerations, see https://github.com/openshift/cakephp-ex/blob/master/README.md.\n\nWARNING: Any data stored will be lost upon pod destruction. Only use this template for testing.",
+      "description": "An example CakePHP application with a MySQL database. For more information about using this template, including OpenShift considerations, see https://github.com/magicalyak/cakephp-ex/blob/master/README.md.\n\nWARNING: Any data stored will be lost upon pod destruction. Only use this template for testing.",
       "tags": "quickstart,php,cakephp",
       "iconClass": "icon-php"
     }
   },
-  "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/openshift/cake-ex/blob/master/README.md.",
+  "message": "The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/magicalyak/cake-ex/blob/master/README.md.",
   "labels": {
     "template": "cakephp-mysql-example"
   },
@@ -438,7 +438,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/openshift/cakephp-ex.git"
+      "value": "https://github.com/magicalyak/cakephp-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",

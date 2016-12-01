@@ -5,12 +5,12 @@
     "name": "cakephp-example",
     "annotations": {
       "openshift.io/display-name": "CakePHP",
-      "description": "An example CakePHP application with no database. For more information about using this template, including OpenShift considerations, see https://github.com/openshift/cake-ex/blob/master/README.md.",
+      "description": "An example CakePHP application with no database. For more information about using this template, including OpenShift considerations, see https://github.com/magicalyak/cake-ex/blob/master/README.md.",
       "tags": "quickstart,php,cakephp",
       "iconClass": "icon-php"
     }
   },
-  "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/openshift/cake-ex/blob/master/README.md.",
+  "message": "The following service(s) have been created in your project: ${NAME}.\n\nFor more information about using this template, including OpenShift considerations, see https://github.com/magicalyak/cake-ex/blob/master/README.md.",
   "labels": {
     "template": "cakephp-example"
   },
@@ -242,7 +242,7 @@
       "displayName": "Git Repository URL",
       "description": "The URL of the repository with your application source code.",
       "required": true,
-      "value": "https://github.com/openshift/cakephp-ex.git"
+      "value": "https://github.com/magicalyak/cakephp-ex.git"
     },
     {
       "name": "SOURCE_REPOSITORY_REF",
